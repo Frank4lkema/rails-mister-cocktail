@@ -1,6 +1,4 @@
-
-Ingredient.delete_all
-Cocktail.delete_all
+Cocktail.destroy_all
 
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
