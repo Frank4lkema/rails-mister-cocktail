@@ -1,12 +1,15 @@
 import 'bootstrap';
-import {toggleForm} from "../components/form"
-import { loadDynamicBannerText } from '../components/banner';
+import { loadDynamicBannerText } from "../components/loadDynamicBannerText";
+import { toggleForm } from "../components/toggleForm"
+import { test } from '../components/test'
+
 
 
 loadDynamicBannerText();
-
-
-
 toggleForm();
+
+
+
+
 
 

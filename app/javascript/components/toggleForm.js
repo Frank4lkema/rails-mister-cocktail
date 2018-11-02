@@ -1,5 +1,9 @@
 function toggleForm () {
-    document.getElementById("x").addEventListener("click",
+    const x = document.getElementById("x");
+    if (!x){
+      return;
+    }
+    x.addEventListener("click",
     function(){
       const x = document.getElementById("toggle_form");
       if ( x.style.visibility === "visible"){
@@ -9,6 +13,6 @@ function toggleForm () {
       }
 });}
 
-export {toggleForm};
+export { toggleForm };
 
 
