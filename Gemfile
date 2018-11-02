@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # gem for loading images
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
+# gem for security passes
 gem 'dotenv-rails', groups: [:development, :test]
 
 

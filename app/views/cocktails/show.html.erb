@@ -1,12 +1,12 @@
-<h1><%= @cocktail.name %></h1>
 
+<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
 
 <% @cocktail.doses.each do |dose| %>
   <p><%= dose.ingredient.name %> amount <%= dose.description %></p>
   <%= link_to "delete", dose_path(dose), method: :delete %>
 <% end %>
 
-<h3 id="x">Add ingredients</h3>
+<h3 id="x">Add button to to ingredients</h3>
 
 
 <div id= "toggle_form">
