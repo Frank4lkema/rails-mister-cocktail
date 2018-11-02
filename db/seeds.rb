@@ -10,5 +10,5 @@ Ingredient.create(name: "cola")
 Ingredient.create(name: "tequila")
 
 
-Cocktail.create(name: "Cuba Libre")
-Cocktail.create(name: "Mojito")
+# Cocktail.create(name: "Cuba Libre")
+# Cocktail.create(name: "Mojito")
