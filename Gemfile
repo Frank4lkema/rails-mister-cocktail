@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# gem for loading images
+gem 'dotenv-rails', groups: [:development, :test]
+
 
 # Front-end files added by Frank
 gem 'autoprefixer-rails'
