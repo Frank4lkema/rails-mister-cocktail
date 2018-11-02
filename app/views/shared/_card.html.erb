@@ -1,0 +1,16 @@
+
+<% @cocktails.each do |cocktail| %>
+  <div class="col-xs-12 col-sm-4">
+    <!-- insert <div class="card"> -->
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+        <div class="card-category"></div>
+        <div class="card-description">
+          <div class="card-description-center">
+            <h2><%= cocktail.name %></h2>
+          </div>
+        </div>
+        <%= link_to "cocktail", cocktail_path(cocktail), class: "card-link" %>
+      </div>
+    </div>
+
+  <% end %>

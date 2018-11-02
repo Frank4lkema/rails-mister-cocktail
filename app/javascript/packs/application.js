@@ -1,3 +1,6 @@
 import 'bootstrap';
+import {toggleForm} from "../components/form"
 
-console.log('Hello World from Webpacker')
+
+
+toggleForm();
